@@ -1,7 +1,7 @@
 # WEB-1
 Repositorio das aulas de WEB 1 do meu quarto semestre de faculdade
 
-# TAGS
+# TAGS HTML
  
 > Cabeçalho
     <h1> </h1> Cabeçalho de nivel mais alto, podendo chegar ate ao nivel 6.
@@ -22,10 +22,10 @@ Repositorio das aulas de WEB 1 do meu quarto semestre de faculdade
     <ol> </ol> criaçãode uma lista ordenada.
     <li> </li> criação de elementos dentro de uma lista.
 
-> atributos:
+> Atributos:
     type tipo de marcador ultilizado.
 
-> imagens:
+> Imagens:
     <img> indica para o navegador que uma imagem deve ser mostrada naquele lugar nescessita dois atributos.
         src = obrigatório apontando para a sus localização.
         alt = texto alternatico nao obrigatório, mas é ultilizado para pessoas com deficiência.
@@ -34,9 +34,45 @@ Repositorio das aulas de WEB 1 do meu quarto semestre de faculdade
         title = faz com que apareçamais informaçoes, quando se coloca o mouse em cima da imagem.
     <figcaption> legenda da imagem.
 
-> links:
+> Links:
     <a> </a> link basico para criação de links e hiperlinks
         href = aponta para o endereço que quer destinar.
         title = pode ser usado para titulo de um link.
         mailto: abrir um aplicativo responsavel para abrir o email.
         
+
+# CSS
+
+> Listas:
+    list-style-type:
+        <ol>
+        <ul>
+        <li>
+    
+    list-style-image:
+        <ul>
+        <li>
+
+> Tabelas:
+    <width>
+    <padding>
+    <text-transform>
+    <letter-space>
+    <border-top/border-bottom>
+    <text-align>
+    <background-color>
+    :hover 
+
+> Formularios:
+    <font-size>
+    <color>
+    <background-color>
+    <border>
+    <border-radius>
+    :hover
+    <background-image>
+
+> fildset e legendas:
+    <width>
+    <color>
+    <background-color>
