@@ -4,27 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formularios</title>
 </head>
-<title>Class e Id</title>
-<style type="text/css">
-    #idUm {
-        background: blue;
-    }
-    #idDois {
-        background: yellow;
-    }
-    #idTres {
-        background: lightblue;
-    }
-    #idQuatro {
-        background: lightgreen;
-    }
-</style>
+<title>Entrada de Senha</title>
 <body>
-    <div id="idUm">Div1</div>
-    <div id="idDois">Div2</div>
-    <div id="idTres">Div3</div>
-    <div id="idQuatro">Div4</div>
+    <form action="http://www.example.com/login.php">
+        <p>
+            Usuário:
+            <input type="text" name="username" size="15" maxlength="30" />
+        </p>
+        <p>
+            Senha:
+            <input type="password" name="password" size="15" maxlength="30" />
+        </p>
+    </form>
+    
 </body>
 </html>

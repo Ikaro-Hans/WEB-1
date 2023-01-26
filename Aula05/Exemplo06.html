@@ -4,36 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formularios</title>
 </head>
-    <title>Opacity</title>
-    <style type="text/css">
-        div {
-            width: 100px;
-            height: 100px;
-            margin: 40px;
-            display: inline-block;
-            background-color: red;
-        }
-        p {
-            width: 100px;
-            height: 100px;
-            position: relative;
-            top: 20px;
-            left: 20px;
-            margin: 20px;
-        }
-        p.one {
-            background-color: black;
-            opacity: 0.5;
-        }
-        p.two {
-            background-color: rgb(0, 0, 0);
-            background-color: rgba(0, 0 0, 0.5);
-        }
-    </style>
+<title>Checkbox</title>
 <body>
-    <div><p class="one"></p></div>
-    <div><p class="two"></p></div>
+    <form action="http://www.example.com/profile.php">
+        <p>
+            Por favor, selecione seu serviço de música favorito:
+            <br>
+            <input type="checkbox" name="service" value="rock" checked="checked">iTunes
+            <input type="checkbox" name="service" value="last.fm">Last.fm
+            <input type="checkbox" name="service" value="spotify">Spotify
+        </p>
+    </form>
+    
 </body>
 </html>

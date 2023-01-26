@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
 </head>
-<title>Botão de Rádio</title>
+<title>Caixa de listagem suspensa</title>
 <body>
     <form action="http://www.example.com/profile.php">
         <p>
-            Por favor, selecione seu gênero favorito:
-            <br>
-            <input type="radio" name="genre" value="rock" checked="checked"> Rock
-            <input type="radio" name="genre" value="pop">Pop
-            <input type="radio" name="genre" value="jazz">Jazz
+            Em qual dispositivo você ouve música?
         </p>
+        <select name="diverces" multiple="multiple">
+            <option value="ipod">Celular</option>
+            <option value="radio">Rádio</option>
+            <option value="Computer">Computador</option>
+        </select>
     </form>
     
 </body>

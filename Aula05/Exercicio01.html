@@ -4,43 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS</title>
+    <title>Formulario</title>
+    <style type="text/css">
+        div{
+            width: 500px;
+        }
+    </style>
 </head>
-    <style type="text/css">
-        body{
-            font-family: Arial, Verdana, Sans-serif;
-            background-color: white;
-            padding: 20px;
-        }
-        h1 {
-            color: black;
-            text-align: center;
-            padding: inherit;
-        }
-        p {
-            color: lightblue;
-        }
-    </style>
-    <style type="text/css">
-        .URSS {
-            background: red;
-            height: 100%;
-            width: 100%;
-            text-align: center;
-        }
-        #USA {
-            background: blue;
-            height: 100%;
-            width: 100%;
-            text-align: center;
-        }
-    </style>
 <body>
-    <div>
-        <div class="URSS"><p>URSS</p></div>
-        <div id="USA">USA</div>
-    </div>
-    <div><h1>Guerra Fria</h1></div>
-    <div><p>A Guerra Fria foi um conflito político-ideológico que foi travado entre Estados Unidos (EUA) e União Soviética (URSS), entre 1947 e 1991. O conflito travado entre esses dois países foi responsável por polarizar o mundo em dois grandes blocos, um alinhado ao capitalismo e outro alinhado ao comunismo.</p></div>
+    <h1>Formulário</h1>
+    <form action="" width="400">
+        <div  >
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <p>Nome: <input type="text" name="Nome"></p>
+                <p>Endereço: <input type="text" name="addres"></p>
+                <p>Cidade: <input type="text" name="cidade"></p>
+                <p>Estado: <select name="state">
+                    <option value="São Paulo">São Paulo</option></select></p>
+            </fieldset>
+        </div>
+        
+        <br>
+        <br>
+        <DIv>
+        <fieldset>
+            <legend>Dados profissionais</legend>
+            <br>
+            <input type="radio" name="gerente" value="Gerencia" checked>Gerencia
+            <input type="radio" name="finance" value="Financeiro">Financeiro
+            <input type="radio" name="reception" value="Recepçao">Recepçao
+            <input type="radio" name="administration" value="Administrativo">Administrativo
+            <input type="radio" name="judy" value="Juridico">Juridico
+            <br>
+            <br>
+            <label>Área de interesse</label>
+            <p><input type="checkbox" name="computacion" value="Computação"> Computação
+            <input type="checkbox" name="biologic" value="biologia"> Biologia
+            <input type="checkbox" name="environment" value="meio ambiente">Meio Ambiente
+            <input type="checkbox" name="engineering" value="engenharia"> Engenharia
+            <input type="checkbox" name="history" value="historia">História</p>
+            <p>Mini-curriculo: <textarea textarea name="obs" cols="40" rows="5"></textarea></p>
+        </fieldset>
+    </DIv>
+        <br>
+        <input type="submit" name="enviar" value="Enviar">
+        <input type="reset" name="limpar" value="limpar">
+    </form>
 </body>
 </html>

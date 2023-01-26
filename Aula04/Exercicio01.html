@@ -4,52 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
-    <style type="text/css">
-        div{
-            width: 500px;
-        }
-    </style>
+    <title>Tabela</title>
 </head>
 <body>
-    <h1>Formulário</h1>
-    <form action="" width="400">
-        <div  >
-            <fieldset>
-                <legend>Dados pessoais</legend>
-                <p>Nome: <input type="text" name="Nome"></p>
-                <p>Endereço: <input type="text" name="addres"></p>
-                <p>Cidade: <input type="text" name="cidade"></p>
-                <p>Estado: <select name="state">
-                    <option value="São Paulo">São Paulo</option></select></p>
-            </fieldset>
-        </div>
-        
-        <br>
-        <br>
-        <DIv>
-        <fieldset>
-            <legend>Dados profissionais</legend>
-            <br>
-            <input type="radio" name="gerente" value="Gerencia" checked>Gerencia
-            <input type="radio" name="finance" value="Financeiro">Financeiro
-            <input type="radio" name="reception" value="Recepçao">Recepçao
-            <input type="radio" name="administration" value="Administrativo">Administrativo
-            <input type="radio" name="judy" value="Juridico">Juridico
-            <br>
-            <br>
-            <label>Área de interesse</label>
-            <p><input type="checkbox" name="computacion" value="Computação"> Computação
-            <input type="checkbox" name="biologic" value="biologia"> Biologia
-            <input type="checkbox" name="environment" value="meio ambiente">Meio Ambiente
-            <input type="checkbox" name="engineering" value="engenharia"> Engenharia
-            <input type="checkbox" name="history" value="historia">História</p>
-            <p>Mini-curriculo: <textarea textarea name="obs" cols="40" rows="5"></textarea></p>
-        </fieldset>
-    </DIv>
-        <br>
-        <input type="submit" name="enviar" value="Enviar">
-        <input type="reset" name="limpar" value="limpar">
-    </form>
+    <table border="3" width="400">
+        <tr>
+            <th>Codigo</th>
+            <th>Produto</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Notdook</td>
+            <td>R$2.500,99</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Tablet</td>
+            <td>R$999,99</td>
+        </tr>
+        <tr>
+            <td rowspan="2" >Desconto</td>
+            <td colspan="2">cupom1 -R$ 10</td>
+        </tr>
+        <tr>
+            <td colspan="2" >cupom2 -R$ 12</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td colspan="2">R$ 3.478,98</td>
+        </tr>
+    </table>
 </body>
 </html>
