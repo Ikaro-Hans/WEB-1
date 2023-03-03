@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animação</title>
+    <style type="text/css" media="screen">
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(../CSS04/img/torres.jpeg);
+            /* background-size: contain; */
+            background-size: cover;
+        }
+        .img {
+            animation: animation 1s infinite alternate;
+            justify-items: center;
+        }
+        @keyframes animation {
+            from{
+                transform: translateX(300px);
+                transform: translateY(300px);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="img"><img src="../CSS04/img/90b3351b4c046978fdb8f8cb161941c7.png" alt="" height="500px" width="700px"> </div>
+</body>
+</html>

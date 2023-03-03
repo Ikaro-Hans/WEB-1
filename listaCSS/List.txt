@@ -1,0 +1,35 @@
+Lista de Exercícios
+
+CSS
+
+1. Crie uma div com uma borda sólida de 2px de espessura e cor vermelha.
+2. Faça com que uma imagem tenha um tamanho máximo de 300px de largura e altura.
+3. Crie um botão que tenha uma cor de fundo azul e texto branco.
+4. Faça com que um texto fique em negrito e sublinhado.
+5. Crie uma lista não ordenada com marcadores quadrados vermelhos.
+6. Faça com que uma div tenha um fundo gradiente que vá do vermelho ao azul.
+7. Crie uma tabela com bordas sólidas de 1px e cor cinza.
+8. Faça com que um texto fique em itálico.
+9. Crie uma div que ocupe metade da largura da tela e tenha uma cor de fundo amarela.
+10. Faça com que um texto tenha uma sombra de texto cinza.
+11. Crie uma tabela que ocupe 80% da largura da tela e tenha uma borda sólida de 2px e
+cor preta.
+12. Faça com que uma div tenha um fundo com imagem repetida na vertical.
+13. Crie uma lista ordenada com números em algarismos romanos.
+14. Faça com que um texto tenha um espaçamento entre as letras de 2px.
+15. Crie uma div que tenha uma borda arredondada de 10px.
+16. Faça com que uma imagem tenha uma borda sólida de 1px e cor preta.
+17. Crie uma tabela com uma cor de fundo cinza claro em todas as células da primeira
+coluna.
+18. Faça com que um texto tenha um tamanho de fonte de 24px e uma cor de texto verde.
+19. Crie uma div que tenha uma largura de 300px e uma altura de 200px, com uma cor de
+fundo rosa.
+20. Faça com que uma tabela tenha um espaçamento entre as células de 5px.
+21. Crie um botão com um efeito de hover que muda a cor de fundo para azul claro.
+22. Crie um menu horizontal com links que mudam de cor quando o mouse está sobre
+eles.
+23. Crie uma imagem que desaparece quando o mouse passa sobre ela.
+24. Crie um botão com uma animação de preenchimento que cresce quando o mouse
+passa sobre ele.
+25. Crie um menu vertical com links que mudam de cor quando o mouse está sobre eles e
+exibe uma seta à direita quando o mouse está sobre o link ativo.
